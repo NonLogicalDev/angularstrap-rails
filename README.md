@@ -1,24 +1,36 @@
-# Angular::Strap
+# AngularStrap-Rails
 
-TODO: Write a gem description
-
-## Installation
-
-Add this line to your application's Gemfile:
-
-    gem 'angular-strap'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install angular-strap
+angularstrap-rails adds [AngularStrap](http://mgcrea.github.io/angular-strap/) 
+set of angular directives to your rails asset pipeline. 
 
 ## Usage
 
-TODO: Write usage instructions here
+To install put this in your Gemfile
+
+```Gemfile
+gem 'angularstrap-rails'
+```
+
+Then add the following to your application.js
+```Javascript
+//= require angular-strap
+```
+
+You may also need to include the following in application.js
+```Javascript
+//= require angular-strap/bootstrap-datepicker
+//= require angular-strap/bootstrap-select
+//= require angular-strap/bootstrap-datepicker
+```
+
+And this in your aplication.css.sass
+```Sass
+# require angular-strap/bootstrap-datepicker
+# require angular-strap/bootstrap-select
+# require angular-strap/bootstrap-datepicker
+```
+
+For further information on how to use it refer to [AngularStrap](http://mgcrea.github.io/angular-strap/) 
 
 ## Contributing
 
