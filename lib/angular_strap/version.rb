@@ -1,0 +1,3 @@
+module AngularStrap
+    VERSION = "0.0.1"
+end
