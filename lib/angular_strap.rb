@@ -1,5 +1,8 @@
-require "angular/strap/version"
+require "angular_strap/version"
 
 module AngularStrap
-    # Your code goes here...
+  module Rails
+    class Engine < ::Rails::Engine
+    end
+  end
 end
