@@ -1,4 +1,4 @@
-require "angular_strap/version"
+require "angularstrap-rails/version"
 
 module AngularStrap
   module Rails
