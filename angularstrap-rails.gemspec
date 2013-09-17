@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'angular_strap/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "angular-strap"
+  spec.name          = "angularstrap-rails"
   spec.version       = AngularStrap::VERSION
   spec.authors       = ["AkaiBureido"]
   spec.email         = ["utkin.oleg@me.com"]
